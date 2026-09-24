@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * test
  */
@@ -14,5 +16,18 @@
 
 void main() {
     // This is our first class
-    System.out.println("Hey Hannan" + ", How are you bro?");
+    // System.out.println("Hey Hannan" + ", How are you bro?");
+    String studentName = "Hannan";
+    long solvedProblems = 150;
+
+    // System.out.printf("Student: %s, Problems Solved: %d", studentName,
+    // solvedProblems);
+    Scanner sc = new Scanner(System.in);
+    String name = sc.nextLine();
+    System.out.println(name);
+
+    Scanner sc2 = new Scanner(System.in);
+    String name2 = sc2.nextLine();
+
+    System.out.println(name2);
 }
