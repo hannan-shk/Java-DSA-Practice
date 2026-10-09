@@ -60,12 +60,13 @@ public class Loops {
         System.out.println();
 
         int a = 1;
+        int num = 10;
 
-        while (a <= 10) {
+        while (a <= num) {
             int j = 1;
-            while (j <= 10) {
-                if (a > 1 && a < 10) {
-                    if (j > 1 && j < 10) {
+            while (j <= num) {
+                if (a > 1 && a < num) {
+                    if (j > 1 && j < num) {
                         System.out.print("  ");
                     } else {
 
